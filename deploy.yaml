@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: shark-deployment
+  name: DevSecops-deployment
   labels:
     app: custom
 spec:
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: shark
-        image: docker6767/sharkproduct
+        image: docker6767/DevSecOpsproduct
         ports:
         - containerPort: 8080
