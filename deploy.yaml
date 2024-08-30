@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: shark
-        image: docker6767/DevSecOpsproduct
+        image: kiranvodnala/DevSecOps-Secure-Pipeline-project
         ports:
         - containerPort: 8080
